@@ -1,0 +1,23 @@
+{
+    "name": "taj/thepackage",
+    "description": "a learning curve",
+    "authors": [
+        {
+            "name": "giwa tajudeen",
+            "email": "giwa208@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "proj\\library\\": ["mylib", "additional"]
+        }
+    },
+    "require": {
+        "abraham/twitteroauth": "0.6.*",
+        "ext-xml": "*",
+        "ext-gd": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    }
+}
